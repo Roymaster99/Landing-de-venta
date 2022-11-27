@@ -1,0 +1,199 @@
+
+.contenedor {
+    width: 100%px;
+    max-width: 10000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 78px;
+}
+
+.nav-item a:hover {
+    color: rgb(230, 111, 0);
+}
+
+.navbar a {
+    color: white;
+    position: relative;
+}
+
+a img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.d-flex img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 20px;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+/* Aquí termina la Navbar */
+
+.cuadro-amarillo {
+    background-color: rgb(255, 233, 131);
+    width: all;
+    height: 800px;
+    padding: 50px;
+}
+
+.cuadro-amarillo h1 {
+    text-align: center;
+}
+
+.flexbox-conteiner {
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 1250px 150px;
+    grid-row-gap: 50px;
+}
+
+.flexbox-conteiner img {
+    width: 150px;
+    height: 150px;
+}
+
+.mb-3 {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+/* Aquí termina el cuadro amarillo */
+
+.cuadro-azul {
+    background-color: #0833a0;
+    width: all;
+    height: 700px;
+    padding: 60px;
+}
+
+.cuadro-azul h2 {
+    text-align: center;
+    color: white;
+}
+
+.col img {
+    width: 448px;
+    height: 310px;
+}
+
+.row {
+    margin-top: 25px;
+}
+
+/* Aquí termina el cuadro azul */
+
+.cuadro-gris {
+    background-color: gray;
+    width: all;
+    height: 500px;
+    margin: -25px;
+}
+
+.cuadro-gris h3{
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.cuadro-gris p{
+    display: inline-block;
+
+}
+
+.cuadro-gris img {
+    width: 50%;
+    height: 500px;
+}
+
+/* Aquí termina el cuadro gris */
+
+
+
+/* Aquí empieza responsive */
+
+@media (max-width: 480px) {
+
+    .cuadro-amarillo {
+        width: all;
+        height: 800px;
+    }
+
+
+    .flexbox-conteiner {
+        display: block;
+    }
+
+    .mb-3 {
+        margin-top: 7vh;
+        width: 300px;
+    }
+
+/* Aquí termina el cuadro amarillo */
+
+.cuadro-azul {
+    width: all;
+    height: 1700px;
+}
+
+.col img {
+    width: 292px;
+    height: 310px;
+}
+
+/* Aquí termina el cuadro azul */
+
+.cuadro-gris {
+    background-color: gray;
+    width: all;
+    height: 700px;
+    margin: -25px;
+}
+
+.cuadro-gris img {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.cuadro-gris h3{
+    display: block;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.cuadro-gris p {
+    display: block;
+    padding-left: 30px;
+}
+
+/* Aquí termina el cuadro gris */
+
+}
+
+
+
+
+
